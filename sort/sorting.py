@@ -5,6 +5,7 @@ def bubble_sort(array):
     n = len(array)
 
     for i in range(n):
+        
         # Create a flag that will allow the function to
         # terminate early if there's nothing left to sort
         already_sorted = True
